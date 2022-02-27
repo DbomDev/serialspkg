@@ -4,7 +4,7 @@ from pathlib import Path
 serial_lengh = 20
 serial_amout = 5000
 
-start_text = "FX_"
+start_text = "sgen_"
 chars = 'abcdefghijklmnopqrstuvwxyz'
 
 
