@@ -1,5 +1,5 @@
 # Serial-Generator
-I was thinking today that I need again Serial lists for my purchase onyl Programms and online I can't find a free serial list generator, so I amde this Project.
+Make for free tons of Serials instead of needing to watch ads or pay. 
 
 ## Setup
 First you need Install the required Packages so the Program can work.
