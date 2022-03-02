@@ -13,26 +13,11 @@ chars = 'abcdefghijklmnopqrstuvwxyz123456789_-'
 
 
 def get_path():
-    """
-    A function to get the current path to bot.py
-
-    Returns:
-     - cwd (string) : Path to bot.py directory
-    """
     cwd = Path(__file__).parents[1]
     cwd = str(cwd)
     return cwd
 
 def read_json(filename):
-    """
-    A function to read a json file and return the data.
-
-    Params:
-     - filename (string) : The name of the file to open
-
-    Returns:
-     - data (dict) : A dict of the data in the file
-    """
     cwd = get_path()
     with open('./databases/'+filename+'.json', 'r') as file:
         data = json.load(file)
@@ -40,21 +25,10 @@ def read_json(filename):
 
 
 def write_json(data, filename):
-    """
-    A function used to write data to a json file
-
-    Params:
-     - data (dict) : The data to write to the file
-     - filename (string) : The name of the file to write to
-    """
     cwd = get_path()
     with open('./databases/'+filename+'.json', 'w') as file:
         json.dump(data, file, indent=4)
-
-
-
-
-
+	
 print("""
 
   #####                                    #####                                                         
@@ -70,29 +44,21 @@ print("""
 \t\t\t\tGithub: DbomDev
 
 
-
 """)
-
-
 base1 = read_json("serials")
 
 def password_gen(sup: int):
-
     	password = ""
-    
     	for x in range(sup):
         	password_char = random.choice(chars)
         	password = password + password_char
-			
     	time.sleep(0.1)
     	return password
-
-
 
 for i in range(serial_amout):
 	sup1 = password_gen(serial_lengh)
 	sup2 = start_text+sup1
 	print(sup2)
 	base1["Serials"].append(sup2)
-
+	
 write_json(base1, "serials")
