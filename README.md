@@ -18,7 +18,7 @@ When you want have a custom tag at the start of all of your serials, then just p
 
 In this variable `chars = 'abcdefghijklmnopqrstuvwxyz'` we have all of our characters which can be used for the Serials, you can add everything you want.
 
-Examples:
+### Example
 ```
 serial_lengh = 30
 serial_amout = 1000
