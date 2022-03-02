@@ -30,4 +30,4 @@ chars = 'abcdefghijklmnopqrstuvwxyz123456789_-'
 Now you have setup everything and you're ready to start generate your own Serials. The Serials are being Saved here : `.\databases\serials.json` in the List `Serials`.
 
 ## Credits
-Credits are required (DbomDev).
+Credits are required for DbomDev.
