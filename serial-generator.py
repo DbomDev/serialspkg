@@ -5,7 +5,7 @@ serial_lengh = 30
 serial_amout = 1000
 
 start_text = ""
-chars = 'abcdefghijklmnopqrstuvwxyz'
+chars = 'abcdefghijklmnopqrstuvwxyz123456789_-'
 
 
 # ~~~~~~~~ Do Not Touch anything udner this line! ~~~~~~~~
