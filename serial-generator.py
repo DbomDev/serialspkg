@@ -60,5 +60,4 @@ for i in range(serial_amout):
 	sup2 = start_text+sup1
 	print(sup2)
 	base1["Serials"].append(sup2)
-	
-write_json(base1, "serials")
+	write_json(base1, "serials")
