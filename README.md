@@ -25,7 +25,6 @@ serial_amout = 1000
 
 start_text = "MyTag_"
 chars = 'abcdefghijklmnopqrstuvwxyz123456789_-'
-
 ```
 
 Now you have setup everything and you're ready to start generate your own Serials. The Serials are being Saved here : `.\databases\serials.json` in the List `Serials`.
