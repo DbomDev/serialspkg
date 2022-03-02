@@ -1,10 +1,10 @@
 import random, time, json
 from pathlib import Path
 
-serial_lengh = 20
-serial_amout = 5000
+serial_lengh = 30
+serial_amout = 1000
 
-start_text = "sgen_"
+start_text = ""
 chars = 'abcdefghijklmnopqrstuvwxyz'
 
 
