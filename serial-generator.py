@@ -52,7 +52,7 @@ def password_gen(sup: int):
     	for x in range(sup):
         	password_char = random.choice(chars)
         	password = password + password_char
-    	time.sleep(0.1)
+    	
     	return password
 
 for i in range(serial_amout):
